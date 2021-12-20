@@ -26,8 +26,9 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(270deg, #051817, #0e3839);
-    height: 250px;
-    width: 500px;
+    height: 16rem;
+    max-width: 36rem;
+    width: 95%;
     color: #06f1f6;
     text-shadow: 1px 1px 10px;
     border-radius: 15px;
@@ -45,7 +46,7 @@
 
 .title {
     position: absolute;
-    top: 5rem;
+    top: 4rem;
     letter-spacing: 1px;
     word-spacing: 2px;
     color: #fff;
@@ -57,7 +58,7 @@
 }
 
 .clock section p {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
 
 }
 
@@ -65,4 +66,26 @@
     color: silver;
     text-shadow: none;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 70%;
+    }
+
+    .clock {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(270deg, #051817, #0e3839);
+        height: 16rem;
+        max-width: 36rem;
+        width: 95%;
+        color: #06f1f6;
+        text-shadow: 1px 1px 10px;
+        border-radius: 15px;
+        border: 2px solid silver;
+        box-shadow: 0 0 5px 10px;
+    }
 }
