@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .App {
     height: 100vh;
     background-color: #282c34;
-    background: url('/public/newYear.jpg');
+    background: url("/public/newYear.jpg");
     background-size: cover;
 
     text-align: center;
@@ -41,7 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .title {
@@ -59,7 +59,6 @@
 
 .clock section p {
     font-size: 4.2rem;
-
 }
 
 .clock section small {
