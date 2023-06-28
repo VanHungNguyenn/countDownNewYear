@@ -4,7 +4,7 @@ const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
 	return (
 		<>
 			<section className='timer__container'>
-				<h1 className='title'>Countdown to NewYear Jan 1, 2023</h1>
+				<h1 className='title'>Countdown to NewYear Jan 1, 2024</h1>
 				<section className='timer'>
 					<div className='clock'>
 						<section>
