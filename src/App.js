@@ -10,7 +10,7 @@ function App() {
 	let interval
 
 	const startTimer = () => {
-		const countDownDate = new Date('January 1, 2024').getTime()
+		const countDownDate = new Date('January 29, 2025').getTime()
 
 		interval = setInterval(() => {
 			const now = new Date().getTime()
