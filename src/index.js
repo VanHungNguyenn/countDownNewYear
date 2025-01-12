@@ -5,7 +5,7 @@ import App from './App'
 import './index.css'
 
 const tagManagerArgs = {
-	gtmId: 'GTM-PRZNM8FL', // Thay bằng mã GTM của bạn
+	gtmId: 'GTM-K4QB4JRZ', // Thay bằng mã GTM của bạn
 }
 
 TagManager.initialize(tagManagerArgs)
